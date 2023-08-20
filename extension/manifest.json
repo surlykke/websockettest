@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "WebSocketTest",
+  "description": "Testing extension of service worker lifetime by server-sendt websocket messages",
+  "version": "0.0.1",
+  "icons": {
+    "128": "icons/128.png"
+  },
+  "background": { 
+	  "service_worker": "background.js"
+  },
+  "host_permissions": ["http://localhost:8080/*"]
+}
