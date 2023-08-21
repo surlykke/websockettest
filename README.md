@@ -13,6 +13,8 @@ From a terminal, in {project-location}/server, do
 
 The server uses tcp port 8080, so nothing else should run there
 
+It sends the message "PING" every 10 seconds
+
 Leave it running
 
 ## Extension
